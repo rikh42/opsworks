@@ -1,0 +1,7 @@
+name              "php5"
+maintainer        "Rik"
+license           "Apache 2.0"
+description       "Installs and configures PHP 5.5"
+version           "1.0.0"
+recipe            "setup", "Install and configure PHP5.5"
+depends           "apt", ">= 1.4.4"
