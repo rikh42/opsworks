@@ -1,6 +1,7 @@
 #
 # Cookbook Name:: Pod Point
 # Recipe:: setup
+include_recipe "apt"
 
 
 # add repository for PHP 5.5
