@@ -24,12 +24,3 @@ remote_file "/usr/local/bin/composer" do
       ::File.exist?("/usr/local/bin/composer")
     end
 end
-
-
-# This should be run as part of the deploy process, but needs to set a working directory
-
-#execute "composer install" do
-#  command "php composer.phar install && touch /var/log/.php_composer_installed"
-#  creates "/var/log/.php_composer_installed"
-#  action :run
-#end
