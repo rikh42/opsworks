@@ -1,0 +1,6 @@
+name              "composer"
+maintainer        "Rik"
+license           "Apache 2.0"
+description       "Installs Composer"
+version           "1.0.0"
+recipe            "install", "Install Composer"
