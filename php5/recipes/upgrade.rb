@@ -5,7 +5,7 @@ include_recipe "apt"
 
 
 # add repository for PHP 5.4
-apt_repository "Add Ondrej ppa for PHP 5.4" do
+apt_repository "php54" do
   uri "http://ppa.launchpad.net/ondrej/php5-oldstable/ubuntu"
   distribution node['lsb']['codename']
   components ["main"]
