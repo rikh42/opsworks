@@ -27,5 +27,8 @@ end
 end
 
 
+execute "Enabled mcrypt in cli" do
+  command "php5enmod -s ALL mcrypt"
+end
 
 
