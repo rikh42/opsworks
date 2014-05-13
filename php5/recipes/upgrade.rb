@@ -27,8 +27,6 @@ end
 end
 
 
-execute "Enabled mcrypt in cli" do
-  command "php5enmod -s ALL mcrypt"
+file "/etc/php5/cli/conf.d/sasl.ini" do
+  action :delete
 end
-
-
